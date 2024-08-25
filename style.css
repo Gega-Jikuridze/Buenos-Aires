@@ -6,3 +6,47 @@
 }
 
 
+
+
+
+/* header  */
+
+header{
+    background-color: rgb(250, 244, 237);
+}
+
+.header{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+    padding: 30px 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    gap: 115px;
+}
+
+.nav a{
+    color: #37474F;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+
+/* background-section  */
+
+.background-section{
+    background: url(./assets/bg.png);
+    height: 495px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
